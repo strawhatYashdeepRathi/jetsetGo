@@ -1,0 +1,115 @@
+.Availableflights-inner-container {
+  display: flex;
+  min-height: 90vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-vector/airport-runway-concept-illustration_114360-9524.jpg?w=1380&t=st=1704905523~exp=1704906123~hmac=046189fb02e3d2eb6855d5630b87c19141fd25d069f43d0b06f38c51b3909ca4");
+}
+
+.avFlights-ticket-Cardscontent-wrapper {
+  overflow: auto;
+  width: 90%;
+}
+
+.avFlights-ticket-Card {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.avFlights-ticket-logo-name-box {
+  display: flex;
+  padding: 0 10px;
+  flex-direction: row;
+  align-items: center;
+  font-size: large;
+}
+
+.avFlights-ticket-logo-name-box > p{
+  padding-left: 30px;
+}
+
+.avFlights-from-content-wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.avFlights-ticketfrom-and-to-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.avFlights-ticket-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avFlights-from-content-wrap p:nth-child(1) {
+  color: rgb(31, 31, 31);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.avFlights-book-btn {
+  width: 170px;
+  height: 50px;
+}
+
+.avFlights-from-content-wrap p:nth-child(2) {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.avFlights-from-content-wrap p:nth-child(3) {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.avFlights-ticket-deptime {
+  font-weight: 500;
+}
+
+.avFlights-ticket-duration {
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(139, 139, 139);
+}
+
+.avFlights-card-header-wrapper {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.avFlights-card-header-btns {
+  width: 200px;
+  height: 50px;
+  margin: 0 20px;
+}
+
+.filter-btn-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-filter-btn {
+  width: 200px;
+  height: 50px;
+}
+
+@media (max-width:720px) {
+.Available-box-model {
+  width: 300px !important;
+}
+}

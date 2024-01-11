@@ -1,0 +1,100 @@
+
+.BookingPage-inner-container {
+  display: flex;
+  min-height: 90vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/top-view-white-plane-green-background_23-2148971056.jpg?w=1380&t=st=1704822562~exp=1704823162~hmac=05ccc62136754a8962069256417bad2e7d99c1582c46719152d7886901db0412");
+}
+
+.BookingPage-toggle-btns {
+  display: flex;
+  padding: 20px 0;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Mui-disabled {
+  background-color: rgba(128, 128, 128, 0.493) !important;
+  color: rgba(0, 0, 0, 0.603) !important;
+}
+
+.ConnectingAirportsRoundedIcon {
+  font-size: 50px;
+}
+
+.BookingPage-dual-btn {
+  width: 200px;
+  height: 60px;
+}
+
+.BookingPage-inp-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.Booking-Page-Date-wrapper {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.BookingPage-count-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BookingPage-count-btn {
+  display: flex;
+  /* border: 1px solid black; */
+  background-color: #1976d2;
+  color: white;
+  height: 4vh;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.counter {
+  padding: 10px;
+}
+
+.BookingPage-get-flights-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.BookingPage-get-flights-wrapper :nth-child(2) {
+  margin-top: 50px;
+}
+
+@media (max-width:720px) {
+  .BookingPage-inp-wrapper {
+    flex-direction: column;
+  }
+  .ConnectingAirportsRoundedIcon {
+    rotate: 90deg;
+  }
+  .Booking-Page-Date-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Booking-Page-Date-wrapper >#blank-space {
+    margin-bottom: 30px;
+  }
+  .Booking-cardcontent {
+    overflow: auto;
+  }
+}
