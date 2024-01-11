@@ -160,6 +160,11 @@ function Availableflights() {
                 Sort by
               </Button>
             </div>
+            {
+              !flights.length && (
+                <div className="oops-error-no-flight">OOPS, no connecting flights. Please select different locations</div>
+              )
+            }
             <CardContent className="avFlights-ticket-Cardscontent-wrapper">
               <div className="avFlights-ticket-Cards-wrapper">
                 {flights

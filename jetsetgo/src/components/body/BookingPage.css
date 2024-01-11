@@ -98,3 +98,9 @@
     overflow: auto;
   }
 }
+
+@media (min-width:720px) {
+  #blank-space {
+    display: none !important;
+  }
+}
